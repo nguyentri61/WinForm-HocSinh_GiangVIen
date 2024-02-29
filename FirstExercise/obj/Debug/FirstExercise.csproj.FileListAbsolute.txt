@@ -1,0 +1,15 @@
+D:\WinForm\FirstExercise\FirstExercise\bin\Debug\FirstExercise.exe.config
+D:\WinForm\FirstExercise\FirstExercise\bin\Debug\FirstExercise.exe
+D:\WinForm\FirstExercise\FirstExercise\bin\Debug\FirstExercise.pdb
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.csproj.AssemblyReference.cache
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.FGiangVien.resources
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.FHocSinh.resources
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.Properties.Resources.resources
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.UCThongTin.resources
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.csproj.GenerateResource.cache
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.csproj.CoreCompileInputs.cache
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.exe
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.pdb
+D:\WinForm\FirstExercise\FirstExercise\bin\Debug\System.Data.SqlClient.dll
+D:\WinForm\FirstExercise\FirstExercise\bin\Debug\System.Data.SqlClient.xml
+D:\WinForm\FirstExercise\FirstExercise\obj\Debug\FirstExercise.csproj.CopyComplete
