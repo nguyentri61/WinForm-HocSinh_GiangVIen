@@ -41,8 +41,7 @@ namespace FirstExercise
 
         public bool checkMailPhoneNull()
         {
-            if (ten == null || diaChi == null || cmnd == null || id.ToString() == null || gioiTinh == null | phone == null || email == null 
-                || String.IsNullOrEmpty(ten) || String.IsNullOrEmpty(diaChi) || String.IsNullOrEmpty(id.ToString()) || String.IsNullOrEmpty(gioiTinh) || String.IsNullOrEmpty(phone) || String.IsNullOrEmpty(email))
+            if (String.IsNullOrEmpty(ten) || String.IsNullOrEmpty(diaChi) || String.IsNullOrEmpty(id.ToString()) || String.IsNullOrEmpty(gioiTinh) || String.IsNullOrEmpty(phone) || String.IsNullOrEmpty(email))
             {
                 MessageBox.Show("Vui long dien day du du lieu");
                 return false;

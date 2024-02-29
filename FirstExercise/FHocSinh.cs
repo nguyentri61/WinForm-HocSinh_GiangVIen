@@ -37,13 +37,13 @@ namespace FirstExercise
                 {
                     hsDao.Them(hs);
                     ucThongTin1.DataGridView.DataSource = dbConnection.Update(sqlStr);
+                    clearTextBox();
                 }
             }
             catch
             {
                 MessageBox.Show("Vui long dien day du thong tin");
             }
-            clearTextBox();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -52,12 +52,12 @@ namespace FirstExercise
             {
                 hsDao.Xoa(int.Parse(ucThongTin1.txtID.Text));
                 ucThongTin1.DataGridView.DataSource = dbConnection.Update(sqlStr);
+                clearTextBox();
             }
             catch
             {
                 MessageBox.Show("Vui long dien day du thong tin");
             }
-            clearTextBox();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -69,13 +69,13 @@ namespace FirstExercise
                 {
                     hsDao.Sua(hs);
                     ucThongTin1.DataGridView.DataSource = dbConnection.Update(sqlStr);
+                    clearTextBox();
                 }
             }
             catch
             {
                 MessageBox.Show("Vui long dien day du thong tin");
             }
-            clearTextBox();
         }
 
         private void gvHsinh_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -112,7 +112,6 @@ namespace FirstExercise
             ucThongTin1.txtPhone.Clear();
             ucThongTin1.dtpBirthDay.ResetText();
         }
-
 
         private void btnGV_Click(object sender, EventArgs e)
         {

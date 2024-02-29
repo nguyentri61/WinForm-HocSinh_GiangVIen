@@ -39,13 +39,13 @@ namespace FirstExercise
                 {
                     gvDao.Them(gv);
                     ucThongTin1.DataGridView.DataSource = dBConnection.Update(sqlStr);
+                    clearTextBox();
                 }
             }
             catch
             {
                 MessageBox.Show("Vui long dien day du thong tin");
             }
-            clearTextBox();
         }
         private void btnXoa_Click(object sender, EventArgs e)
         {
@@ -53,12 +53,12 @@ namespace FirstExercise
             {
                 gvDao.Xoa(int.Parse(ucThongTin1.txtID.Text));
                 ucThongTin1.DataGridView.DataSource = dBConnection.Update(sqlStr);
+                clearTextBox();
             }
             catch
             {
                 MessageBox.Show("Vui long dien day du thong tin");
             }
-            clearTextBox();
         }
         private void btnSua_Click(object sender, EventArgs e)
         {
@@ -69,13 +69,13 @@ namespace FirstExercise
                 {
                     gvDao.Sua(gv);
                     ucThongTin1.DataGridView.DataSource = dBConnection.Update(sqlStr);
+                    clearTextBox();
                 }
             }
             catch
             {
                 MessageBox.Show("Vui long dien day du thong tin");
             }
-            clearTextBox();
         }
 
         private void gvGVien_CellClick(object sender, DataGridViewCellEventArgs e)
